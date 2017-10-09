@@ -4,7 +4,7 @@ Title: Send Email Via SendGrid API
 Version: 0.0.1
 Author: Andrie de Vries
 Maintainer: Andrie de Vries <apdevries@gmail.com>
-Description: Send Email Via SendGrid API
+Description: Send Email Via SendGrid API.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

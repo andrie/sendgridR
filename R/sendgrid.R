@@ -3,7 +3,7 @@
 
 #' Constructs list with email and name of person
 #'
-#' Used to construct the email payload. See [construct_email_payload] and [sendgrid_send]
+#' Used to construct the email payload. See [make_email_payload] and [sendgrid_send]
 #'
 #' @param email email address
 #' @param name name
@@ -23,7 +23,7 @@ email_person <- function(email, name){
 
 #' Constructs data frame with email and names of people
 #'
-#' Used to construct the email payload. See [construct_email_payload] and [sendgrid_send]
+#' Used to construct the email payload. See [make_email_payload] and [sendgrid_send]
 #' @inherit email_person
 #' @export
 email_group <- function(email, name){

@@ -15,7 +15,7 @@ email_person(email, name)
 list of length one
 }
 \description{
-Used to construct the email payload. See \link{construct_email_payload} and \link{sendgrid_send}
+Used to construct the email payload. See \link{make_email_payload} and \link{sendgrid_send}
 }
 \seealso{
 Other email functions: \code{\link{make_email_payload}},
